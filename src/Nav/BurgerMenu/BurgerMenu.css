@@ -1,0 +1,30 @@
+.burger_menu {
+  cursor: pointer;
+  position: fixed;
+  right: 30px;
+}
+
+.burger_line {
+  width: 35px !important;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+
+.active > .burger_line {
+  margin: 6px 0;
+}
+
+.active > .top {
+   transform: translate(-10px, 11px) rotate(45deg);
+}
+
+.active > .middle {
+  transform: translateX(10px);
+  opacity: 0;
+}
+
+.active > .bottom {
+   transform: translate(-10px, -11px) rotate(-45deg);
+}
+
