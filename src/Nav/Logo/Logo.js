@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './Logo.css';
 
 function Logo() {
   return (
@@ -8,4 +9,4 @@ function Logo() {
   )
 }
 
-export default Logo
+export default Logo;
