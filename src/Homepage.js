@@ -2,6 +2,7 @@ import React from 'react';
 import './Homepage.css';
 import Nav from './Nav/Nav';
 import Hero from './Hero/Hero';
+import Service from './Service/Service';
 
 function Homepage() {
   return (
@@ -10,7 +11,7 @@ function Homepage() {
 
       <Hero />
 
-      {/* Configurator */}
+      <Service />
 
       {/* Case Studies */}
 
