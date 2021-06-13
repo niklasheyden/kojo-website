@@ -1,0 +1,68 @@
+.hero {
+  background-image: url('https://res.cloudinary.com/dmbqeteuw/image/upload/v1623596156/hero-kojo_po9akh.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hero_wrapper {
+  max-width: 80%;
+  margin:  0 auto;
+  color: #fff;
+}
+
+.hero_wrapper > h1 {
+  font-weight: 800;
+  font-size: 100px;
+  text-align: center;
+  line-height: 105px;
+  letter-spacing: -3px;
+}
+
+.hero_buttons {
+  margin-top: 2.2rem;
+}
+
+button {
+  width:  330px;
+  font-family: 'Inter', sans-serif;
+  font-weight:  600;
+  font-size:  1.25rem;
+  padding: 30px 30px;
+  border: 2px solid #21B688;
+  cursor:  pointer;
+  position:  relative;
+}
+
+button:hover {
+  top: -3px;
+  transition: top ease 0.5s;
+}
+
+button.cta_filled {
+  background-color: #21B688;
+  color: #fff;
+}
+
+button.cta_outlined {
+  background-color: transparent;
+  color: #21B688;
+  border: 2px solid #21B688;
+}
+
+button.cta_outlined img:hover {
+  color:  white;
+}
+
+button > img {
+  margin-left: 32px;
+}
+
+button.hero-cta {
+  margin-right: 1.5rem;
+}

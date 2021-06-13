@@ -1,13 +1,14 @@
 import React from 'react';
 import './Homepage.css';
 import Nav from './Nav/Nav';
+import Hero from './Hero/Hero';
 
 function Homepage() {
   return (
     <div className='homepage'>
       <Nav />
 
-      {/* Hero */}
+      <Hero />
 
       {/* Configurator */}
 
