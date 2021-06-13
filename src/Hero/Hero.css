@@ -24,6 +24,15 @@
   letter-spacing: -3px;
 }
 
+.hero_wrapper > span {
+  font-family:  proxima-nova, sans-serif;
+  font-weight: 800;
+  font-size: 100px;
+  text-align: center;
+  line-height: 105px;
+  letter-spacing: -3px;
+}
+
 .hero_buttons {
   margin-top: 2.2rem;
 }

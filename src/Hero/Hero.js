@@ -1,11 +1,17 @@
 import React from 'react';
 import './Hero.css';
+import ReactTypingEffect from 'react-typing-effect';
 
 function Hero() {
   return (
     <div className='hero'>
       <div className="hero_wrapper">
-        <h1 className="hero_slogan">DSGVO konforme Websites für Verbände</h1>
+        <h1 className="hero_slogan">DSGVO konforme Websites für</h1>
+
+        <ReactTypingEffect
+          text={["Verbände", "Institute", "Organisationen"]}
+        />
+
         <div className="hero_buttons">
           <button className="cta_filled hero-cta">
             Termin vereinbaren
