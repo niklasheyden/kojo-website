@@ -1,0 +1,40 @@
+.step {
+  max-width:  25%;
+  margin:  3rem 0;
+}
+
+.steps_wrapper {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.step_wrapper > h3 {
+  text-align: left;
+  font-size:  28px;
+  margin-top:  2rem;
+  margin-bottom: 0.5rem;
+}
+
+.dot {
+  width:  20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.step_text {
+  text-align: left;
+}
+
+.dotdash_wrapper {
+  display: flex;
+  align-items:  center;
+}
+
+.dash {
+  border-top: 2px dashed lightgray;
+  width:  90%;
+  margin-left: 1rem;
+  margin-right: 2.5rem;
+}

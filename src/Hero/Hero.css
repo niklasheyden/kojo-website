@@ -35,43 +35,10 @@
 
 .hero_buttons {
   margin-top: 2.2rem;
+  display: flex;
+  justify-content: center;
 }
 
-button {
-  width:  330px;
-  font-family: 'Inter', sans-serif;
-  font-weight:  600;
-  font-size:  1.25rem;
-  padding: 30px 30px;
-  border: 2px solid #21B688;
-  cursor:  pointer;
-  position:  relative;
-}
-
-button:hover {
-  top: -3px;
-  transition: top ease 0.5s;
-}
-
-button.cta_filled {
-  background-color: #21B688;
-  color: #fff;
-}
-
-button.cta_outlined {
-  background-color: transparent;
-  color: #21B688;
-  border: 2px solid #21B688;
-}
-
-button.cta_outlined img:hover {
-  color:  white;
-}
-
-button > img {
-  margin-left: 32px;
-}
-
-button.hero-cta {
-  margin-right: 1.5rem;
+button:first-of-type {
+  margin-right: 1.2rem !important;
 }
