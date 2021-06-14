@@ -1,6 +1,8 @@
 import React from 'react';
 import './Hero.css';
 import ReactTypingEffect from 'react-typing-effect';
+import ButtonFilled from '../Buttons/ButtonFilled';
+import ButtonOutlined from '../Buttons/ButtonOutlined';
 
 function Hero() {
   return (
@@ -10,17 +12,15 @@ function Hero() {
 
         <ReactTypingEffect
           text={["Verbände", "Institute", "Organisationen"]}
+          speed={100}
+          eraseSpeed={100}
+          eraseDelay={1000}
+          typingDelay={1000}
         />
 
         <div className="hero_buttons">
-          <button className="cta_filled hero-cta">
-            Termin vereinbaren
-            <img src="https://res.cloudinary.com/dmbqeteuw/image/upload/v1623599299/arrow-white-kojo_k82dfd.svg" alt="" />
-          </button>
-          <button className="cta_outlined">
-            Website Konfigurator
-            <img src="https://res.cloudinary.com/dmbqeteuw/image/upload/v1623599299/arrow-green-kojo_wglw1g.svg" alt="" />
-          </button>
+          <ButtonFilled title='Termin vereinbaren' />
+          <ButtonOutlined title='Website Konfigurator' />
         </div>
       </div>
     </div>

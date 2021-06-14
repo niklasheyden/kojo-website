@@ -1,0 +1,21 @@
+.button_filled > button {
+  width:  330px;
+  font-family: 'Inter', sans-serif;
+  font-weight:  600;
+  font-size:  1.25rem;
+  padding: 30px 30px;
+  border: 2px solid #21B688;
+  cursor:  pointer;
+  position:  relative;
+  background-color: #21B688;
+  color: #fff;
+}
+
+.button_filled > button > img {
+  margin-left: 32px;
+}
+
+.button_filled > button:hover {
+  top: -3px;
+  transition: top ease 0.5s;
+}
