@@ -1,0 +1,12 @@
+.headline_wrapper > h2 {
+  color: #6B7280;
+  font-size:  25px;
+  text-align:  left;
+}
+
+.headline_wrapper > h4 {
+  font-size:  50px;
+  color: #111111;
+  font-weight: 700;
+  text-align:  left;
+}

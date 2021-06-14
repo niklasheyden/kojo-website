@@ -1,1 +1,14 @@
+.service {
+  padding: 10vh 0;
+  display:  flex;
+  justify-content:  center;
+  text-align:  left;
+}
 
+.service > .button_outlined {
+  text-align:  left;
+}
+
+.service_wrapper {
+  max-width: 1200px;
+}
